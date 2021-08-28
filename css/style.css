@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body p:first-child {
+    text-align: center;
+}
+
+body p:nth-child(2) {
+    font-weight: bold;
+}
