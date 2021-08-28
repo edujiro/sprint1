@@ -1,5 +1,6 @@
 body {
-    background-color: aqua;
+    color: white;
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -9,4 +10,20 @@ body p:first-child {
 
 body p:nth-child(2) {
     font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li::before {
+    content: "★";
+    color: brown;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul li a {
+    color: white;
 }
