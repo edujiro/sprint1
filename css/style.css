@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(19, 64, 160);
+    background-color: #8E0002;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,6 +31,7 @@ ul {
 li::before {
     /* Añadimos contenido antes de cada elemento de la lista */
     content: "★";
+    content: attr(1);
     /* Insertamos el marcador */
     padding-right: 10px;
     /* Establecemos el espacio entre las viñetas y el list item */
@@ -48,4 +49,17 @@ ul li a {
     padding: 1px 1px 4px 1px;
     background: #020000d7;
     color: rgba(212, 238, 217, 0.993);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor_images {
+    text-align: center;
+}
+
+.contenedor_images div {
+    display: inline-block;
 }
