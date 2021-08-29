@@ -1,29 +1,45 @@
 body {
-    color: white;
-    background-color: black;
+    background-color: rgb(19, 64, 160);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body p:first-child {
-    text-align: center;
-}
+body
+        .titulo{
+            text-align: center;
+            color: #df4e15; 
+            padding:35px 35px 40px 35px;
+            border-left:5px solid #F98200;
+            background:#020000d7;
+            margin-bottom:50px;         
+        }
+        
+        .parrafo{
+            color: rgb(241, 226, 222);
+            margin-left: 30px;
+        }
 
-body p:nth-child(2) {
-    font-weight: bold;
-}
-
-ul li {
-    list-style: none;
-}
-
-ul li::before {
-    content: "★";
-    color: brown;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-ul li a {
-    color: white;
-}
+        ul {
+            list-style: none; /* Quitamos los marcadores */
+            padding: 0; /* Quitamos el padding por defecto de la lista */
+            margin-left: 60px; /* Separamos la lista de la izquierda */
+            color: rgb(232, 136, 26);
+            font-weight:bold;
+            }
+            
+            li::before { /* Añadimos contenido antes de cada elemento de la lista */
+            content: "★"; /* Insertamos el marcador */
+            padding-right: 10px; /* Establecemos el espacio entre las viñetas y el list item */
+            color: rgb(230, 205, 23); /* Coloreamos la viñeta */
+            display: inline-block;
+            font-size: 30px;
+            line-height: 25px;
+            vertical-align: -5px;
+            width: 15px;
+            }
+        
+        ul li a {
+            margin-left: 50px;
+            padding:1px 1px 4px 1px;
+            background:#020000d7;
+            color: rgba(212, 238, 217, 0.993);
+            } 
