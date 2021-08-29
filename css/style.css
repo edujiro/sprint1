@@ -53,10 +53,10 @@ ul li a {
 
 .parrafo_descripcion {
     text-align: center;
-    color: #df4e15;
+    color: #111118;
     padding: 20px 20px 25px 20px;
-    background: #020000ce;
-    margin-left: 70px;
+    background: #e9a872a8;
+    margin-block-end: 70px;
 }
 
 img {
